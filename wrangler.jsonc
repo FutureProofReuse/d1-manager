@@ -3,10 +3,12 @@
   "pages_build_output_dir": "svelte-kit/cloudflare",
   "compatibility_date": "2024-06-10",
   "workers_dev": false,
-  "route": {
-    "pattern": "d1.future-proof.dev",
-    "custom_domain": true
-  },
+  "routes": [
+    {
+      "pattern": "d1.future-proof.dev",
+      "zone_name": "future-proof.dev"
+    }
+  ],
   "env": {
     "production": {
       "d1_databases": [
